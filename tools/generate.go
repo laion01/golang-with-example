@@ -23,6 +23,7 @@ import (
 // siteDir is the target directory into which the HTML gets generated. Its
 // default is set here but can be changed by an argument passed into the
 // program.
+
 var siteDir = "./public"
 
 func verbose() bool {
